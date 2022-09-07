@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    color: rgb(41, 41, 177);
+}
+
+.nav h1 {
+    font-size: 30px;
+    margin: 0 50px 0 50px;
+}
+
+.link-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    font-size: 20px;
+}
+
+.nav div {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 50px;
+    background-color: white;
+}
+
+.nav button {
+    margin-left: 35px;
+    padding: 10px 50px;
+    color: white;
+    background-color: rgb(41, 41, 177);
+}
+
+.input {
+    padding: 10px 150px;
+}

@@ -1,17 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import './Navbar.css'
+import Input from '../Input/Input';
 
 const Navbar = () => {
     
     return(
         <div>
-            <nav>
+            <nav className='nav'>
                 <h1>FancyShop</h1>
-                <ul>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Login</li>
+                <ul className='link-list'>
+                    <li>Womens's</li>
+                    <li>Men's</li>
+                    <li>Child's</li>
+                    <li>Sport</li>
                 </ul>
+                <div>
+                    <Input 
+                    
+                    type={"text"}
+                    placeholder={"Search product name ..."}
+                    />
+                    <button>View Cart</button>
+                </div>
             </nav>
         </div>
     );
