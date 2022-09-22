@@ -16,11 +16,13 @@ const Homepage = () => {
 
   return (
     <div className="homepage">
+        
         {products.map( item => 
       
             <Products
             title={item.title}
             image={item.image}
+            alt={item.title}
             category={item.category}
             price={item.price}
            />
